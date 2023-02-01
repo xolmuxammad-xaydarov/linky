@@ -17,15 +17,15 @@
       <div class="container-xxl">
         <div class="header__inner pt-4 d-flex justify-content-between align-items-center">
           <div class="logo">
-            <a href="../home/home.html" class="logo__link text-decoration-none d-flex aling-items-center">
+            <a href="../../index.html" class="logo__link text-decoration-none d-flex aling-items-center">
               <img src="../../assets/images/logo.png" alt="logo" />
               <span class="fs-3 px-2 text-dark">Linky</span>
             </a>
           </div>
 
           <nav class="d-flex justify-content-space-between align-items-center ps-2">
-            <a href="../notFound/notFound.html" class="text-primary text-decoration-none pe-2">API Integrations</a>
-            <a href="#" class="btn btn-primary px-4">Login</a>
+            <a href="../notfound/notfound.html" class="text-decoration-none pe-2" style="color: #4154F1;">API Integrations</a>
+            <a href="../signup/regist.html" class="btn text-white px-2" style="background-color: #4154F1;">Get started</a>
           </nav>
         </div>
       </div>
@@ -36,12 +36,19 @@
         <div class="text-center mt-5 pt-5">
           <h2 class="h1">Sign in</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-          <form action="#" class="mt-2">
-            <input type="email" id="email" placeholder="example@gmail.com" required class="form-control border-primary py-2 mb-4 mt-5">
-            <input type="password" id="password" placeholder="Password:" required class="form-control border-primary py-2 mb-3">
-            <button class="btn btn-primary px-5 my-5">Sign in</button>
-          </form>
+          <div class="container-lg">
+            <form action="#" class="pt-2 form-floating">
+              <div class="form-floating">
+                <input type="email" id="floatingInput" required class="form-control border-primary" placeholder="example@gmail.com">
+                <label for="floatingInput" class="pb-2">Email</label>
+              </div>
+              <div class="form-floating mt-3">
+                <input type="password" id="floatPassword" required class="form-control border-primary" placeholder="Password">
+                <label for="floatPassword" class="d-inline-block pb-3">Password</label>
+              </div>
+              <button class="btn text-white px-5 my-5" style="background-color: #4154F1;">Sign in</button>
+            </form>
+          </div>
         </div>
       </div>
     </main>
